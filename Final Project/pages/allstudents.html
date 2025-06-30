@@ -1,0 +1,433 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Student management system dashboard">
+   
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="../styles/allstudents.css">
+    <title>Student Management System | Dashboard</title>
+
+</head>
+<body>
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+        <div class="logo">
+          <div class="img"> <img src="../assets/baitussalam_logo.png" alt="logo">
+        </div>
+        <div class="app_name">
+            <h3>Tech Park</h3>
+        </div>
+        </div>
+        <ul class="nav-menu">
+            <li class="nav-item ">
+               <a href="../index.html"> <i>📊</i> <span>Dashboard</span></a>
+            </li>
+            <li class="nav-item active">
+             <a href="./allstudents.html">   <i>👨‍🎓</i> <span>All Students</span></a>
+            </li>
+            <li class="nav-item">
+              <a href="./Sorry.html">   <i>👩‍🏫</i> <span>Teachers</span> </a>
+            </li>
+            <li class="nav-item">
+               <a href="./Sorry.html">  <i>📚</i> <span>Courses</span></a>
+            </li>
+            <li class="nav-item">
+               <a href="./Sorry.html"> <i>📅</i> <span>Attendance</span> </a>
+            </li>
+            <li class="nav-item">
+              <a href="./Sorry.html">  <i>💰</i> <span>Fees</span></a>
+            </li>
+            <li class="nav-item">
+               <a href="./Sorry.html"> <i>⚙️</i> <span>Settings</span></a>
+            </li>
+             <li class="nav-item " style="position: absolute; bottom: 10px; width: 100%;">
+                <a href="./login.html"><i><i class="fa-solid fa-right-from-bracket"></i></i> <span>Login</span></a>
+            </li>
+        </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Header -->
+        <header class="header">
+            <button class="menu-toggle" id="menuToggle">☰</button>
+          <div class="search_input">
+             <input type="text" placeholder="What do you want to search"> 
+             <i class="fa-solid fa-magnifying-glass"></i> 
+             </div>
+            <div class="user-info">
+                <img src="../assets/unnamed.jpg" alt="User">
+                <div class="admin_text_area"> 
+                <h5>Muhammad Farhan</h5>    
+                <p><span>Admin</span></p>
+                </div>
+            </div>
+        </header>
+
+        <!-- Content Area -->
+        <main class="content">
+       
+                  <div class="top_area">
+                     <div class="student_list_area">
+                         <h1 class="page-title">Students List</h1>
+                         <p><span style="opacity: 0.6;">Home</span> / <span style="font-weight: bold;">Students</span></p>
+                     </div>
+                  <button>+ Add Students</button>
+              </div>
+            
+            <div class="student-list">
+        
+               <h2 class="section-title">Students Information</h2>
+                
+                <table class="student-table">
+                    <thead>
+                        <tr>
+                            <th><input type="checkbox" class="custom-checkbox"></th>
+                            <th>Students Name</th>
+                            <th>Roll</th>
+                            <th>Address</th>
+                            <th>Class</th>
+                            <th>Date of Birth</th>
+                            <th>Phone</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><input type="checkbox" class="custom-checkbox"></td>
+                            <td>Eleanor Pena</td>
+                            <td>#01</td>
+                            <td>TA-107 Newyork</td>
+                            <td>01</td>
+                            <td>02/05/2001</td>
+                            <td>+123 6988567</td>
+                            <td>
+                                <div class="icons">
+                                    <i class="fa-solid fa-trash"></i>
+                                    <i class="fa-solid fa-pen-to-square"></i>
+                                </div>
+                            </td>
+                        </tr>
+                         <tr>
+                            <td><input type="checkbox" class="custom-checkbox"></td>
+                            <td>Eleanor Pena</td>
+                            <td>#01</td>
+                            <td>TA-107 Newyork</td>
+                            <td>01</td>
+                            <td>02/05/2001</td>
+                            <td>+123 6988567</td>
+                           <td>
+                                <div class="icons">
+                                    <i class="fa-solid fa-trash"></i>
+                                    <i class="fa-solid fa-pen-to-square"></i>
+                                </div>
+                            </td>
+                        </tr>
+                         <tr>
+                            <td><input type="checkbox" class="custom-checkbox"></td>
+                            <td>Eleanor Pena</td>
+                            <td>#01</td>
+                            <td>TA-107 Newyork</td>
+                            <td>01</td>
+                            <td>02/05/2001</td>
+                            <td>+123 6988567</td>
+                           <td>
+                                <div class="icons">
+                                    <i class="fa-solid fa-trash"></i>
+                                    <i class="fa-solid fa-pen-to-square"></i>
+                                </div>
+                            </td>
+                        </tr>
+                         <tr>
+                            <td><input type="checkbox" class="custom-checkbox"></td>
+                            <td>Eleanor Pena</td>
+                            <td>#01</td>
+                            <td>TA-107 Newyork</td>
+                            <td>01</td>
+                            <td>02/05/2001</td>
+                            <td>+123 6988567</td>
+                           <td>
+                                <div class="icons">
+                                    <i class="fa-solid fa-trash"></i>
+                                    <i class="fa-solid fa-pen-to-square"></i>
+                                </div>
+                            </td>
+                        </tr>
+                         <tr>
+                            <td><input type="checkbox" class="custom-checkbox"></td>
+                            <td>Eleanor Pena</td>
+                            <td>#01</td>
+                            <td>TA-107 Newyork</td>
+                            <td>01</td>
+                            <td>02/05/2001</td>
+                            <td>+123 6988567</td>
+                           <td>
+                                <div class="icons">
+                                    <i class="fa-solid fa-trash"></i>
+                                    <i class="fa-solid fa-pen-to-square"></i>
+                                </div>
+                            </td>
+                        </tr>
+                         <tr>
+                            <td><input type="checkbox" class="custom-checkbox"></td>
+                            <td>Eleanor Pena</td>
+                            <td>#01</td>
+                            <td>TA-107 Newyork</td>
+                            <td>01</td>
+                            <td>02/05/2001</td>
+                            <td>+123 6988567</td>
+                           <td>
+                                <div class="icons">
+                                    <i class="fa-solid fa-trash"></i>
+                                    <i class="fa-solid fa-pen-to-square"></i>
+                                </div>
+                            </td>
+                        </tr>
+                         <tr>
+                            <td><input type="checkbox" class="custom-checkbox"></td>
+                            <td>Eleanor Pena</td>
+                            <td>#01</td>
+                            <td>TA-107 Newyork</td>
+                            <td>01</td>
+                            <td>02/05/2001</td>
+                            <td>+123 6988567</td>
+                            <td>
+                                <div class="icons">
+                                    <i class="fa-solid fa-trash"></i>
+                                    <i class="fa-solid fa-pen-to-square"></i>
+                                </div>
+                            </td>
+                        </tr>
+                         <tr>
+                            <td><input type="checkbox" class="custom-checkbox"></td>
+                            <td>Eleanor Pena</td>
+                            <td>#01</td>
+                            <td>TA-107 Newyork</td>
+                            <td>01</td>
+                            <td>02/05/2001</td>
+                            <td>+123 6988567</td>
+                          <td>
+                                <div class="icons">
+                                    <i class="fa-solid fa-trash"></i>
+                                    <i class="fa-solid fa-pen-to-square"></i>
+                                </div>
+                            </td>
+                        </tr>
+                         <tr>
+                            <td><input type="checkbox" class="custom-checkbox"></td>
+                            <td>Eleanor Pena</td>
+                            <td>#01</td>
+                            <td>TA-107 Newyork</td>
+                            <td>01</td>
+                            <td>02/05/2001</td>
+                            <td>+123 6988567</td>
+                            <td>
+                                <div class="icons">
+                                    <i class="fa-solid fa-trash"></i>
+                                    <i class="fa-solid fa-pen-to-square"></i>
+                                </div>
+                            </td>
+                        </tr>
+                         <tr>
+                            <td><input type="checkbox" class="custom-checkbox"></td>
+                            <td>Eleanor Pena</td>
+                            <td>#01</td>
+                            <td>TA-107 Newyork</td>
+                            <td>01</td>
+                            <td>02/05/2001</td>
+                            <td>+123 6988567</td>
+                           <td>
+                                <div class="icons">
+                                    <i class="fa-solid fa-trash"></i>
+                                    <i class="fa-solid fa-pen-to-square"></i>
+                                </div>
+                            </td>
+                        </tr>
+                         <tr>
+                            <td><input type="checkbox" class="custom-checkbox"></td>
+                            <td>Eleanor Pena</td>
+                            <td>#01</td>
+                            <td>TA-107 Newyork</td>
+                            <td>01</td>
+                            <td>02/05/2001</td>
+                            <td>+123 6988567</td>
+                           <td>
+                                <div class="icons">
+                                    <i class="fa-solid fa-trash"></i>
+                                    <i class="fa-solid fa-pen-to-square"></i>
+                                </div>
+                            </td>
+                        </tr>
+                         <tr>
+                            <td><input type="checkbox" class="custom-checkbox"></td>
+                            <td>Eleanor Pena</td>
+                            <td>#01</td>
+                            <td>TA-107 Newyork</td>
+                            <td>01</td>
+                            <td>02/05/2001</td>
+                            <td>+123 6988567</td>
+                          <td>
+                                <div class="icons">
+                                    <i class="fa-solid fa-trash"></i>
+                                    <i class="fa-solid fa-pen-to-square"></i>
+                                </div>
+                            </td>
+                        </tr>   
+                        <tr>
+                            <td><input type="checkbox" class="custom-checkbox" checked></td>
+                            <td>Jessia Rose</td>
+                            <td>#10</td>
+                            <td>TA-107 Newyork</td>
+                            <td>02</td>
+                            <td>03/04/2000</td>
+                            <td>+123 8988569</td>
+                            <td>
+                                <div class="icons">
+                                    <i class="fa-solid fa-trash"></i>
+                                    <i class="fa-solid fa-pen-to-square"></i>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="custom-checkbox"></td>
+                            <td>Jenny Wilson</td>
+                            <td>#04</td>
+                            <td>Australia, Sydney</td>
+                            <td>01</td>
+                            <td>12/05/2001</td>
+                            <td>+123 7988566</td>
+                            <td>
+                                <div class="icons">
+                                    <i class="fa-solid fa-trash"></i>
+                                    <i class="fa-solid fa-pen-to-square"></i>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="custom-checkbox"></td>
+                            <td>Guy Hawkins</td>
+                            <td>#05</td>
+                            <td>Australia, Sydney</td>
+                            <td>02</td>
+                            <td>03/05/2001</td>
+                            <td>+123 5988565</td>
+                          <td>
+                                <div class="icons">
+                                    <i class="fa-solid fa-trash"></i>
+                                    <i class="fa-solid fa-pen-to-square"></i>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="custom-checkbox"></td>
+                            <td>Jacob Jones</td>
+                            <td>#15</td>
+                            <td>Australia, Sydney</td>
+                            <td>04</td>
+                            <td>12/05/2001</td>
+                            <td>+123 9988568</td>
+                          <td>
+                                <div class="icons">
+                                    <i class="fa-solid fa-trash"></i>
+                                    <i class="fa-solid fa-pen-to-square"></i>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="custom-checkbox"></td>
+                            <td>Jacob Jones</td>
+                            <td>#16</td>
+                            <td>Australia, Sydney</td>
+                            <td>04</td>
+                            <td>12/05/2001</td>
+                            <td>+123 9988568</td>
+                           <td>
+                                <div class="icons">
+                                    <i class="fa-solid fa-trash"></i>
+                                    <i class="fa-solid fa-pen-to-square"></i>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="custom-checkbox"></td>
+                            <td>Jane Cooper</td>
+                            <td>#01</td>
+                            <td>Australia, Sydney</td>
+                            <td>04</td>
+                            <td>12/05/2001</td>
+                            <td>+123 6988566</td>
+                           <td>
+                                <div class="icons">
+                                    <i class="fa-solid fa-trash"></i>
+                                    <i class="fa-solid fa-pen-to-square"></i>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="custom-checkbox"></td>
+                            <td>Floyd Miles</td>
+                            <td>#11</td>
+                            <td>TA-107 Newyork</td>
+                            <td>01</td>
+                            <td>03/05/2002</td>
+                            <td>+123 5988569</td>
+                          <td>
+                                <div class="icons">
+                                    <i class="fa-solid fa-trash"></i>
+                                    <i class="fa-solid fa-pen-to-square"></i>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="custom-checkbox"></td>
+                            <td>Floyd Miles</td>
+                            <td>#11</td>
+                            <td>TA-107 Newyork</td>
+                            <td>01</td>
+                            <td>03/05/2002</td>
+                            <td>+123 5988569</td>
+                           <td>
+                                <div class="icons">
+                                    <i class="fa-solid fa-trash"></i>
+                                    <i class="fa-solid fa-pen-to-square"></i>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+              
+            </div>
+        </main>
+    </div>
+
+    <script>
+        // Toggle sidebar on mobile
+        const menuToggle = document.getElementById('menuToggle');
+        const sidebar = document.getElementById('sidebar');
+        
+        menuToggle.addEventListener('click', () => {
+            sidebar.classList.toggle('open');
+        });
+
+        // Close sidebar when clicking outside on mobile
+        document.addEventListener('click', (event) => {
+            if (window.innerWidth <= 992) {
+                const isClickInsideSidebar = sidebar.contains(event.target);
+                const isClickOnMenuToggle = event.target === menuToggle;
+                
+                if (!isClickInsideSidebar && !isClickOnMenuToggle) {
+                    sidebar.classList.remove('open');
+                }
+            }
+        });
+    </script>
+</body>
+</html>

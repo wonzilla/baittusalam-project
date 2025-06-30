@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>We're Working On It</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f0ff; /* Very light purple */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            color: #4a2d7a; /* Dark purple for text */
+        }
+
+        .container {
+            max-width: 600px;
+            padding: 40px;
+            background-color: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(149, 102, 205, 0.1); /* Light purple shadow */
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #7e57c2; /* Medium purple */
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background-color: #7e57c2;
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+            box-shadow: 0 4px 15px rgba(126, 87, 194, 0.3);
+        }
+
+        .btn:hover {
+            background-color: #9575cd; /* Lighter purple */
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(126, 87, 194, 0.4);
+        }
+
+        .illustration {
+            width: 200px;
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                margin: 20px;
+                padding: 30px 20px;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <svg class="illustration" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#7e57c2">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/>
+        </svg>
+        <h1>We're Working On This</h1>
+        <p>We apologize for the inconvenience. Our team is currently working hard to improve this page. Please check back later.</p>
+        <button class="btn" onclick="window.history.back()">Go Back</button>
+    </div>
+</body>
+</html>

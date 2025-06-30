@@ -1,0 +1,223 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Student management system dashboard">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="./styles/dashboard.css">
+    <title>Student Management System | Dashboard</title>
+
+</head>
+<body>
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+        <div class="logo">
+          <div class="img"> <img src="./assets/baitussalam_logo.png" alt="logo">
+        </div>
+        <div class="app_name">
+            <h3>Tech Park</h3>
+        </div>
+        </div>
+        <ul class="nav-menu">
+            <li class="nav-item active">
+                <i>📊</i> <span>Dashboard</span>
+            </li>
+            <li class="nav-item">
+               <a href="./pages/allstudents.html"> <i>👨‍🎓</i> <span>All Students</span></a>
+            </li>
+           <li class="nav-item">
+              <a href="./pages/Sorry.html">   <i>👩‍🏫</i> <span>Teachers</span> </a>
+            </li>
+            <li class="nav-item">
+               <a href="./pages/Sorry.html">  <i>📚</i> <span>Courses</span></a>
+            </li>
+            <li class="nav-item">
+               <a href="./pages/Sorry.html"> <i>📅</i> <span>Attendance</span> </a>
+            </li>
+            <li class="nav-item">
+              <a href="./pages/Sorry.html">  <i>💰</i> <span>Fees</span></a>
+            </li>
+            <li class="nav-item">
+               <a href="./pages/Sorry.html"> <i>⚙️</i> <span>Settings</span></a>
+            </li>
+             <li class="nav-item " style="position: absolute; bottom: 10px; width: 100%;">
+                  <a href="./pages/login.html"><i><i class="fa-solid fa-right-from-bracket"></i></i> <span>Login</span></a>
+            </li>
+        </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Header -->
+        <header class="Dashboard_header">
+            <button class="menu-toggle" id="menuToggle">☰</button>
+          <div class="search_input">
+             <input type="text" placeholder="What do you want to search"> 
+             <i class="fa-solid fa-magnifying-glass"></i> 
+             </div>
+            <div class="user-info">
+                <img src="./assets/Haris Icon Image.jpg" alt="User">
+                <div class="admin_text_area"> 
+                <h5>Haris Mengal</h5>    
+                <p><span>Admin</span></p>
+                </div>
+            </div>
+        </header>
+
+      <section class="dashboard">
+    <div class="Newcontainer py-4">
+  <div class="overview">
+    <div class="title mb-4">
+      <span class="text h4">Dashboard</span>
+    </div>
+
+    <div class="row g-3"> <!-- grid row with gap -->
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="box box1 p-3  text-center rounded shadow">
+          <span class="text d-block">Total Courses</span>
+          <span class="number fw-bold">12</span>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="box box2 p-3  text-center rounded shadow">
+          <span class="text d-block">Total Students</span>
+          <span class="number fw-bold">2204</span>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="box box3 p-3 text-center rounded shadow">
+          <span class="text d-block">Completed Courses</span>
+          <span class="number fw-bold">8</span>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="box box4 p-3  text-center rounded shadow">
+          <span class="text d-block">Active Students</span>
+          <span class="number fw-bold">1506</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          <div class="Newcontainer py-4">
+  <div class="row g-4"> <!-- grid row with spacing -->
+
+    <!-- Profile Card -->
+    <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+      <div class="card h-100 p-3 shadow-sm">
+        <h2>Profile</h2>
+        <p><strong>Name:</strong> Ali Khan</p>
+        <p><strong>Roll No:</strong> 12345</p>
+        <p><strong>Program:</strong> BS Computer Science</p>
+      </div>
+    </div>
+
+    <!-- Progress Card -->
+    <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+      <div class="card h-100 p-3 shadow-sm">
+        <h2>Course Progress</h2>
+        <div class="d-flex justify-content-between mb-2">
+          <span>Completed</span>
+          <span>72%</span>
+        </div>
+        <div class="progress">
+  <div class="progress-bar" role="progressbar"
+       style="width: 72%; background-color: purple;"
+       aria-valuenow="72" aria-valuemin="0" aria-valuemax="100">
+  </div>
+</div>
+      </div>
+    </div>
+
+    <!-- Courses Card -->
+    <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+      <div class="card h-100 p-3 shadow-sm">
+        <h2>Courses</h2>
+        <ul class="mb-0">
+          <li>Web Development</li>
+          <li>Data Structures</li>
+          <li>Database Systems</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</div>
+           <div class="Newcontainer py-4">
+  <div class="row g-4"> <!-- Grid row with gutter -->
+
+    <!-- Notifications Card -->
+    <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+      <div class="card h-100 p-3 shadow-sm">
+        <h2>Notifications</h2>
+        <ul class="mb-0">
+          <li>Midterm exams start next week.</li>
+          <li>Library books due on July 10.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Exam Schedule Card -->
+    <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+      <div class="card h-100 p-3 shadow-sm">
+        <h2>Exam Schedule</h2>
+        <ul class="mb-0">
+          <li>Web Dev - July 15, 2025</li>
+          <li>Data Structures - July 18, 2025</li>
+          <li>Database Systems - July 21, 2025</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Upcoming Events Card -->
+    <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+      <div class="card h-100 p-3 shadow-sm">
+        <h2>Upcoming Events</h2>
+        <ul class="mb-0">
+          <li>July 5, 2025 – Career Counseling Seminar</li>
+          <li>July 12, 2025 – Sports Gala</li>
+          <li>July 20, 2025 – Science Exhibition</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</div>
+    </section>
+    </div>
+
+    <script>
+        // Toggle sidebar on mobile
+        const menuToggle = document.getElementById('menuToggle');
+        const sidebar = document.getElementById('sidebar');
+        
+        menuToggle.addEventListener('click', () => {
+            sidebar.classList.toggle('open');
+        });
+
+        // Close sidebar when clicking outside on mobile
+        document.addEventListener('click', (event) => {
+            if (window.innerWidth <= 992) {
+                const isClickInsideSidebar = sidebar.contains(event.target);
+                const isClickOnMenuToggle = event.target === menuToggle;
+                
+                if (!isClickInsideSidebar && !isClickOnMenuToggle) {
+                    sidebar.classList.remove('open');
+                }
+            }
+        });
+    </script>
+
+      <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
